@@ -3050,7 +3050,7 @@ button:disabled,
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  background-color: #2e3450;
+  background-color: #022c43;
 }
 
 .spotlights > section > .image {
@@ -3112,7 +3112,7 @@ button:disabled,
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
-  background-color: #333856;
+  background-color: #053f5e;
 }
 
 .spotlights > section:nth-child(2n) > .content {
@@ -3389,6 +3389,10 @@ button:disabled,
   color: #87c5a4;
 }
 
+#header.alt.style7 .logo strong {
+  color: #115173;
+}
+
 body.is-preload #header.alt {
   opacity: 0;
 }
@@ -3619,6 +3623,10 @@ body.is-preload #header.alt {
 
 #banner.style6:after {
   background-color: #87c5a4;
+}
+
+#banner.style7:after {
+  background-color: #115173;
 }
 
 body.is-preload #banner:after {
@@ -4054,4 +4062,14 @@ body.is-menu-visible #menu .inner {
 
 .menu-icons {
   margin-top: 2em !important;
+}
+
+.portfolio-technologies-list {
+  list-style: none;
+}
+
+.project-image img {
+  object-fit: cover;
+  height: 100%;
+  filter: blur(0.1em);
 }
